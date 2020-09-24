@@ -8,6 +8,10 @@ html, body {
     font-family: sans-serif;
     background-color: hsl(265, 54%, 46%);
 }
+body {
+    align-items: center;
+    justify-content: center;
+}
 .fondo {
     background-image: url('./images/bg-desktop.svg');
     background-repeat: no-repeat;
