@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    height: 100%;
+}
+.fondo {
+    background-color: hsl(265, 54%, 46%);
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+nav img {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+main {
+    display: flex;
+    padding: 50px;
+}
+main img {
+    width: 100%;
+    max-width: 709px;
+    height: auto;
+}
+main .main-text {
+    font-size: 2rem;
+    padding: 5rem;
+    color: white;
+    width: 550px;
+}
+main .main-text h1 {
+    padding-bottom: 2rem;
+}
+main .main-text p {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+main .main-text .boton {
+    border-radius: 3.5rem;
+    padding: 2rem 9rem;
+    border: 1px solid grey;
+}
+main .main-text .boton {
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+main .main-text .boton:hover {
+    border: 2px solid;
+}
+footer {
+    padding-bottom: 0px;
+}
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+footer li {
+    display: inline-flex;
+    padding: 9px;
+}
+footer img {
+    width: 30px; height: 30px;
+}
+
+@media screen and (max-width: 1333px) {
+    main .main-text {
+        font-size: 2rem;
+        padding: 5rem;
+        padding-top: 0rem;
+        color: white;
+        width: 550px;
+    }
+}
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+        padding: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    main .main-text {
+        font-size: 1.8rem;
+        color: white;
+        width: 100%;
+        max-width: 540px;
+        height: auto;
+        text-align: center;
+        max-width: 709px;
+        height: auto;
+    }
+    main .main-text .boton {
+        border-radius: 3.5rem;
+        padding: 2rem 10rem;
+        border: 1px solid grey;
+    }
+    main .main-text h1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    main .main-text p {
+        padding-bottom: 2rem;
+    }
+    footer li {
+        padding: 10px;
+    }
+    footer img {
+        width: 40px; height: 40px;
+    }
+    footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
